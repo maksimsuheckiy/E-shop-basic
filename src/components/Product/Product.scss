@@ -1,0 +1,64 @@
+@import "src/mixins";
+
+.product {
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+  box-sizing: border-box;
+  margin: 8px;
+  padding: 16px;
+  max-width: 270px;
+  width: 100%;
+  min-width: 270px;
+    &__header {
+      @include flex-both-sides
+    }
+
+    &__header-code {
+      font-size: 13px;
+      font-weight: 600;
+      font-family: Arial, sans-serif;
+    }
+
+    &__header-btn {
+      background-color: #fff;
+      padding: 2px;
+      cursor: pointer;
+    }
+
+    &__header-favorite {
+      width: 17px;
+      height: 17px;
+        &:hover path {
+          fill-opacity: 1;
+          transition: .4s;
+        }
+    }
+
+    &__header-img {
+      margin: 0 auto;
+      max-height: 215px;
+    }
+
+    &__about {
+      padding: 16px 0;
+    }
+
+    &__about-title {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 22px;
+      color: #151515;
+      padding-top: 16px;
+    }
+
+    &__control {
+      @include flex-both-sides
+    }
+
+    &__control-price {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: #151515;
+    }
+}

@@ -1,0 +1,27 @@
+.error-wrapper {
+  display: flex;
+  align-self: center;
+}
+
+.error {
+  margin: 0 auto;
+
+  &__title {
+    margin: 0;
+    font-size: 48px;
+    line-height: 1;
+    color: #a86d6d;
+    padding-bottom: 10px;
+  }
+
+  &__desc {
+    font-size: 18px;
+    color: #8d6d6d;
+    padding-bottom: 10px;
+  }
+
+  &__back-link {
+    text-decoration: none;
+    color: #668cd1;
+  }
+}

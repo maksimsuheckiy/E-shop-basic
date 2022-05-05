@@ -1,0 +1,17 @@
+.main {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 45px 20px;
+  min-height: calc(100vh - 280px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1385px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}

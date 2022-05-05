@@ -1,0 +1,83 @@
+.form-container {
+  padding: 32px 22px;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 468px;
+  align-self: flex-start;
+  margin: 8px;
+}
+
+.form {
+  &__title {
+    font-family: 'Poppins', sans-serif;
+    color: #151515;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    padding-bottom: 30px;
+    margin: 0;
+  }
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 32px;
+  }
+
+  &__field-label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #151515;
+  }
+
+  &__field {
+    background-color: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+    min-height: 42px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A9A9A9;
+    padding: 0 16px 0 20px;
+  }
+
+  &__submit-box {
+    padding-top: 7px;
+  }
+
+  &__submit {
+    font-family: 'Poppins', sans-serif;
+    width: 218px;
+    height: 56px;
+    background-color: #6A983C;
+    border: 2px solid #46760A;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+
+    &:hover {
+      background-color: #558029;
+    }
+  }
+
+  &__error-message {
+    position: absolute;
+    bottom: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #C7522D;
+  }
+}

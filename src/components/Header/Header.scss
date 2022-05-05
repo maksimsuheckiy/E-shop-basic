@@ -1,0 +1,45 @@
+.header {
+  background-color: #F9F9F9;
+  min-height: 90px;
+  padding: 0 45px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+
+    &__logo-link {
+      display: flex;
+      align-items: center;
+    }
+
+    &__logo-title {
+      font-size: 22px;
+      color: #151515;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      padding-left: 10px;
+      margin: 0;
+    }
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+
+    &__item {
+      padding: 0 20px;
+    }
+
+    &__item-link {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      color: #151515;
+      text-decoration: none;
+        &--selected {
+          border-bottom : #000 solid 2px
+        }
+    }
+}

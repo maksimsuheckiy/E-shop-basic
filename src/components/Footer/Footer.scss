@@ -1,0 +1,13 @@
+.footer {
+  background-color: #F9F9F9;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    &__copyright {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      line-height: 19px;
+      color: #151515;
+    }
+}

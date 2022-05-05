@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Samsung Galaxy S21 Ultra",
+    "price": "34 499₴",
+    "picture": "https://content.rozetka.com.ua/goods/images/big/163259134.jpg",
+    "code": "272562736",
+    "color": "black"
+  },
+  {
+    "name": "Samsung Galaxy S21 Plus",
+    "price": "28 999₴",
+    "picture": "https://content1.rozetka.com.ua/goods/images/big/45615197.jpg",
+    "code": "272679446",
+    "color": "violet"
+  },
+  {
+    "name": "Samsung Galaxy S20 Ultra",
+    "price": "22 999₴",
+    "picture": "https://content2.rozetka.com.ua/goods/images/big/21702040.jpg",
+    "code": "183270172",
+    "color": "gray"
+  },
+  {
+    "name": "Samsung Galaxy A52",
+    "price": "11 999₴",
+    "picture": "https://content1.rozetka.com.ua/goods/images/big/166276939.jpg",
+    "code": "280539228",
+    "color": "black"
+  },
+  {
+    "name": "Samsung Galaxy A72",
+    "price": "12 499₴",
+    "picture": "https://content1.rozetka.com.ua/goods/images/big/166264812.jpg",
+    "code": "280543003",
+    "color": "white"
+  },
+  {
+    "name": "Samsung Galaxy A32",
+    "price": "7 299₴",
+    "picture": "https://content2.rozetka.com.ua/goods/images/big/165917147.jpg",
+    "code": "280528633",
+    "color": "lavenda"
+  },
+  {
+    "name": "Samsung Galaxy Note 20 Ultra",
+    "price": "28 999₴",
+    "picture": "https://content2.rozetka.com.ua/goods/images/big/141333754.jpg",
+    "code": "238667323",
+    "color": "bronze"
+  },
+  {
+    "name": "Samsung Galaxy A12",
+    "price": "5 199₴",
+    "picture": "https://content2.rozetka.com.ua/goods/images/big/178061476.jpg",
+    "code": "268094511",
+    "color": "red"
+  },
+  {
+    "name": "Samsung Galaxy Note 20",
+    "price": "22 999₴",
+    "picture": "https://content2.rozetka.com.ua/goods/images/big/28541072.jpg",
+    "code": "238665997",
+    "color": "green"
+  },
+  {
+    "name": "Samsung Galaxy Z Fold2",
+    "price": "47 999₴",
+    "picture": "https://content2.rozetka.com.ua/goods/images/big/28753296.jpg",
+    "code": "239193979",
+    "color": "black"
+  }
+]

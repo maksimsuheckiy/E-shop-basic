@@ -1,0 +1,14 @@
+.favorite {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: start;
+  padding: 0 40px;
+  align-self: flex-start;
+
+  &__default-text {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}
